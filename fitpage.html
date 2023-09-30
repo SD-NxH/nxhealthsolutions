@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nx Health - Fitness Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> <!-- Add the Font Awesome JavaScript file -->
+  <style>
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: 768px) {
+      /* Adjust styles for mobile devices */
+      .video-container {
+        padding-bottom: 75%; /* 4:3 aspect ratio (height/width) */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nx Health</h1>
+    <nav>
+      <ul>
+         <li><a href="index.html"><i class="fas fa-home home-icon"></i></a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle about-icon"></i></a></li>
+        <li><a href="fitpage.html"><i class="fas fa-dumbbell"></i></i></a></li>
+        <li><a href="foodpage.html"><i class="fas fa-utensils"></i></a></li>
+        <li><a href="nxpage.html"><img src="images/NxFLogo.png" alt="NX Icon" class="icon-img"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Featured Workouts</h2>
+      <p>Here's two effective workouts you can incorporate:</p>
+      <h3>Videos</h3>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mwTKZ9VX6-8" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ml6cT4AZdqI" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Nx Health Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
