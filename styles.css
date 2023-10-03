@@ -55,9 +55,17 @@ main {
 article {
   background-color: #fff;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
+}
+
+@media (min-width: 769px) {
+  article {
+    width: 60%; /* Set a specific width for the website view */
+    height: 35%; /* Set a specific height for the website view */
+  }
 }
 
 article h2 {
@@ -105,6 +113,23 @@ footer {
   object-fit: cover;
 }
 
+.image2 {
+  width: 85%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: 0 auto; /* This centers the element horizontally */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 769px) {
+  .image2 {
+    width: 35%;
+    text-align: center;
+  }
+
+}
 
 
 .social-media-links {
