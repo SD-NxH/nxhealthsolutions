@@ -159,7 +159,15 @@ body {
     background-color: #0056b3; /* Adjust the hover color */
 }
 
-
+.promo{
+    width: 100%; /* Make the image width occupy the full container width */
+  height: 0; /* Set the initial height to 0 */
+  padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
+  background-position: center center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Crop and scale the image to cover the container */
+  background-image: url("images/refer.png"); /* Replace the URL with the correct image path */
+}
 
 .post-image {
   width: 100%; /* Make the image width occupy the full container width */

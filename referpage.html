@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nx Health - Referral</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Add your custom CSS file here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> <!-- Add the Font Awesome JavaScript file -->
+</head>
+<main>
+
+<body>
+  <header>
+    <h1>Nx Health</h1>
+    <nav>
+      <ul>
+       <li><a href="index.html"><i class="fas fa-home home-icon"></i></a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle about-icon"></i></a></li>
+        <li><a href="fitpage.html"><i class="fas fa-dumbbell"></i></i></a></li>
+        <li><a href="foodpage.html"><i class="fas fa-utensils"></i></a></li>
+        <li><a href="nxpage.html"><img src="images/NxFLogo.png" alt="NX Icon" class="icon-img"></a></li>
+      </ul>
+    </nav>
+  </header>
+ <div class="welcome">
+    <h3>Referral Page</h3>
+    <br>
+    <p style="font-style: italic; margin-bottom: 10px;">Refer: family, friends, coworkers, or anyone that could benefit from our services!</p>
+    <br>
+    <form class="form" action="https://formsubmit.co/nxhealthsolutions@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="https://www.nxhealthsolutions.org">
+        <input type="hidden" name="_autoresponse" value="Thank You For Your Feedback">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Referral!">
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="name">Referral's Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="name">Referral's Phone Number:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="social">Referral's Social Media Handle:</label>
+        <input type="text" id="social" name="social" placeholder="Enter your social media handle">
+
+
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
+</div>
+
+ 
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Nx Health Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
