@@ -176,7 +176,7 @@ body {
   background-position: center center; /* Center the image within the container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Crop and scale the image to cover the container */
-  background-image: url("images/6_8.jpg"); /* Replace the URL with the correct image path */
+  background-image: url("images/toxins.jpg"); /* Replace the URL with the correct image path */
 }
 
 .post-image2 {
