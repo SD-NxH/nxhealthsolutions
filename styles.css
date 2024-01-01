@@ -153,9 +153,27 @@ body {
     display: block;
 
 }
+.submit-button2{
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3c763d; /* Your desired button color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+     margin: 0 auto;
+    display: block;
+
+}
 
 /* Hover effect for the submit button */
 .submit-button:hover {
+    background-color: #0056b3; /* Adjust the hover color */
+}
+
+.submit-button2:hover {
     background-color: #0056b3; /* Adjust the hover color */
 }
 
@@ -197,6 +215,16 @@ body {
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Crop and scale the image to cover the container */
   background-image: url("images/NxHealthpodcast.png"); /* Replace the URL with the correct image path */
+}
+
+.ebook{
+    width: 70%; /* Make the image width occupy the full container width */
+  height: 0; /* Set the initial height to 0 */
+  padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
+  background-position: center center center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Crop and scale the image to cover the container */
+  background-image: url("images/ebookc.png"); /* Replace the URL with the correct image path */
 }
 
 .image {
