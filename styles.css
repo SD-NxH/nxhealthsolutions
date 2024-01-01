@@ -244,12 +244,24 @@ body {
   margin-right: auto;
 }
 
+.ebook3{
+  width: 85%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: 0 auto; /* This centers the element horizontally */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 769px) {
   .image2 {
     width: 35%;
   }
   
 }
+
+
 
 
 .social-media-links {
