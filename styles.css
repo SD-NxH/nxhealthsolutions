@@ -66,9 +66,7 @@ article {
 @media screen and (max-width: 768px){
   iframe {
     width: 100%; /* Make the iframe fill the entire width of the viewport */
-    height: auto; /* Let the height adjust automatically based on the content */
-    margin-bottom: 50%;
-  }
+    height: 75px auto; /* Let the height adjust automatically based on the content */
 }
 
 @media (min-width: 769px) {
