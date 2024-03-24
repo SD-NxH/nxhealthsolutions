@@ -61,6 +61,16 @@ article {
    margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
 }
 
+
+
+@media screen and (max-width: 768px){
+  iframe {
+    width: 100%; /* Make the iframe fill the entire width of the viewport */
+    height: auto; /* Let the height adjust automatically based on the content */
+    margin-bottom: 50%;
+  }
+}
+
 @media (min-width: 769px) {
   article {
     width: 60%; /* Set a specific width for the website view */
