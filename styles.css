@@ -186,7 +186,7 @@ body {
 }
 
 .promo{
-    width: 100%; /* Make the image width occupy the full container width */
+    width: 90%; /* Make the image width occupy the full container width */
   height: 0; /* Set the initial height to 0 */
   padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
   background-position: center center; /* Center the image within the container */
@@ -425,6 +425,13 @@ body {
       height: 51px; /* Adjust the height as needed */
       vertical-align: middle;
     }
+
+  @media only screen and (min-width: 768px) {
+    .icon-img{
+        display: none; /* Adjust the size as needed for desktop */
+    }
+
+}
 
 nav ul li {
   display: flex;
