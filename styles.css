@@ -391,7 +391,8 @@ body {
   }
 
   .wp {
-    max-height: 400px;
+    max-width: 600px; /* Adjust the maximum width as needed */
+  max-height: 400px; /* Adjust the maximum height as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating */
   }
 }
