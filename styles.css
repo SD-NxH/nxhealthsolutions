@@ -208,11 +208,14 @@ body {
 .welcomep {
   width: 100%; /* Make the image width occupy the full container width */
   height: 0; /* Set the initial height to 0 */
+  max-width: 600px; /* Adjust the maximum width as needed */
+  max-height: 400px; /* Adjust the maximum height as needed */
   padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
   background-position: center center; /* Center the image within the container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Crop and scale the image to cover the container */
   background-image: url("images/welcome.png"); /* Replace the URL with the correct image path */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .post-image2 {
@@ -390,11 +393,6 @@ body {
     margin: 5px;
   }
 
-  .wp {
-    max-width: 600px; /* Adjust the maximum width as needed */
-  max-height: 400px; /* Adjust the maximum height as needed */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-  }
 }
 
    .video-container {
