@@ -207,7 +207,7 @@ body {
 
 .welcomep {
   width: 100%; /* Make the image width occupy the full container width */
-  height: 100%; /* Set the initial height to 0 */
+  height: 80; /* Set the initial height to 0 */
   padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
   background-position: center center; /* Center the image within the container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -388,6 +388,10 @@ body {
 
   .az-list li {
     margin: 5px;
+  }
+
+  .wp {
+    max-width: 600px;
   }
 }
 
