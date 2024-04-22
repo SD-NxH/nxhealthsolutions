@@ -392,6 +392,7 @@ body {
 
   .wp {
     max-width: 600px;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
   }
 }
 
