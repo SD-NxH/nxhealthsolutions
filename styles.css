@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
   flex-grow: 1; /* Allow the items to grow and occupy remaining space evenly */
-  text-align: center; /* Center the content horizontally */ß
+  text-align: center; /* Center the content horizontally */ÃŸ
 }
 
 }
@@ -204,7 +204,6 @@ body {
   background-size: cover; /* Crop and scale the image to cover the container */
   background-image: url("images/toxins.jpg"); /* Replace the URL with the correct image path */
 }
-
 .welcomep {
   width: 100%;
   height: 0;
@@ -215,6 +214,7 @@ body {
   background-image: url("images/welcome.png");
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .post-image2 {
   width: 100%; /* Make the image width occupy the full container width */
@@ -246,6 +246,15 @@ body {
   background-image: url("images/electfoods.png"); /* Replace the URL with the correct image path */
 }
 
+.ii{
+  width: 100%; /* Make the image width occupy the full container width */
+  height: 0; /* Set the initial height to 0 */
+  padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
+  background-position: center center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Crop and scale the image to cover the container */
+  background-image: url("images/iilogo.gif"); /* Replace the URL with the correct image path */
+}
 
 
 .groups{
@@ -390,7 +399,6 @@ body {
   .az-list li {
     margin: 5px;
   }
-
 }
 
    .video-container {
@@ -409,6 +417,7 @@ body {
       height: 100%;
     }
 
+}
     @media (max-width: 768px) {
       /* Adjust styles for mobile devices */
       .video-container {
@@ -440,10 +449,51 @@ body {
 
   @media only screen and (min-width: 768px) {
     .icon-img{
-        display: none; /* Adjust the size as needed for desktop */
+      width: 51px; /* Adjust the width as needed */
+      height: 51px; /* Adjust the height as needed */
+      vertical-align: middle;/* Adjust the size as needed for desktop */ 
     }
 
 }
+
+/* For desktop view */
+@media (min-width: 769px) {
+  article {
+    width: 55%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the article horizontally */
+  }
+
+  .welcomep {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+
+  .post-image {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .post-image2 {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  .post-image4 {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .promo{
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .groups{
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+}
+
 
 nav ul li {
   display: flex;
@@ -556,6 +606,5 @@ footer {
         max-width: 300px;
       }
     }
-
 
 
