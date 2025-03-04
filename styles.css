@@ -510,6 +510,11 @@ body {
     margin: 0 auto; /* Center the image horizontally */
   }
 
+    .Hsol {
+    max-width: 65%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
     
 
    .survey {
