@@ -504,10 +504,17 @@ body {
     margin: 0 auto; /* Center the article horizontally */
   }
 
+  
   .welcomep {
-    max-width: 600px; /* Adjust the maximum width as needed */
+    max-width: 40%; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the image horizontally */
   }
+
+    .ebook {
+    max-width: 40%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
 
 
   .post-image {
