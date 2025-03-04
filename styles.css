@@ -515,7 +515,10 @@ body {
     margin: 0 auto; /* Center the image horizontally */
   }
 
-    
+    .ebook3 {
+    max-width: 65%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+  }
 
    .survey {
     max-width: 65%; /* Adjust the maximum width as needed */
